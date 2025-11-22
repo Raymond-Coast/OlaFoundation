@@ -8,20 +8,20 @@
   <body>
     <a-scene>
                 <a-assets>
-    <a-asset-item id="ola" src="assets/OLA-Raimonds-K-04-3.glb"></a-asset-item>
-    <a-asset-item id="grida" src="assets/OLA-Raimonds-K-04-navmesh2.glb"></a-asset-item>
+    <a-asset-item id="ola" src="assets/OLA-Raimonds-K-05-3.glb"></a-asset-item>
+    <a-asset-item id="grida" src="assets/OLA-Raimonds-K-05-navmesh.glb"></a-asset-item>
   </a-assets>
 
         <a-gltf-model src="#ola"></a-gltf-model>
 
-        <a-gltf-model id="navmesh" src="#grida" visible="false"></a-gltf-model>
+        <a-gltf-model id="navmesh" src="#grida" visible="false" position="0 -0.3 0"></a-gltf-model>
         
       <a-sky color="#ECECEC"></a-sky>
 
 <a-entity
         id="rig"
         movement-controls="speed:0.1"
-        position="0 1.5 0"
+        position="0 1.3 0"
         rotation="0 0 0"
       >
         <a-entity
@@ -32,89 +32,57 @@
       </a-entity>
 
 
-<a-entity light="intensity: 0.3; type: ambient"></a-entity>
+<a-entity light="intensity: 0.65; type: ambient"></a-entity>
 <a-entity light="color: #fbc87b; distance: 3.75; intensity: 6.07; type: point" position="0 2.67092 0"></a-entity>
 
 <a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 2.32; penumbra: 1; type: spot" position="-1.91888 2.31394 1.95196" rotation="-40 140.41018319034978 9"></a-entity>
 
-<a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 0.8; penumbra: 1; type: spot" position="-2.72926 2.28188 0.85406" rotation="-40 140.41018319034978 9"></a-entity>
 
-<a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 0.8; penumbra: 1; type: spot" position="-0.97275 2.28652 2.64557" rotation="-40 140.41018319034978 9"></a-entity>
 
 <a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 2.32; penumbra: 1; type: spot" position="1.68628 2.27524 1.9213" rotation="-39.99990255146816 230 9.000021045914972" id="spot2-1"></a-entity>
 
-<a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 0.8; penumbra: 1; type: spot" position="0.95745 2.25607 2.74913" rotation="-39.99990255146816 230 9.000021045914972" id="spot2-2"></a-entity>
 
-<a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 0.8; penumbra: 1; type: spot" position="2.60218 2.21113 0.99598" rotation="-39.99990255146816 230 9.000021045914972" id="spot2-3"></a-entity>
 
 <a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 2.32; penumbra: 1; type: spot" position="1.91909 2.27655 -1.80337" rotation="-39.99990255146816 320 9.000021045914972" id="spot3-1"></a-entity>
 
-<a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 0.8; penumbra: 1; type: spot" position="2.73771 2.28246 -0.93523" rotation="-39.99990255146816 320 9.000021045914972" id="spot3-2"></a-entity>
 
-<a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 0.8; penumbra: 1; type: spot" position="1.03708 2.27325 -2.65351" rotation="-39.99990255146816 320 9.000021045914972" id="spot3-3"></a-entity>
 
 <a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 2.32; penumbra: 1; type: spot" position="-1.87199 2.53456 -2.08309" rotation="-39.99990255146816 50 9.000021045914972" id="spot4-1"></a-entity>
 
-<a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 0.8; penumbra: 1; type: spot" position="-1.08567 2.38666 -2.71712" rotation="-39.99990255146816 50 9.000021045914972" id="spot4-2"></a-entity>
-
-<a-entity light="angle: 70; color: #faebc3; decay: 1.2; distance: 3.53; intensity: 0.8; penumbra: 1; type: spot" position="-2.54414 2.35605 -1.21186" rotation="-39.99990255146816 50 9.000021045914972" id="spot4-3"></a-entity>
 
 
 
-<a-entity light="color: #f3d27a; decay: 2.47; distance: 1.56; intensity: 1.5; type: point" position="0 1 11"></a-entity>
 
-<a-entity light="color: #f3d27a; decay: 2.47; distance: 1.56; intensity: 1.5; type: point" position="-2.53676 1 10.44286"></a-entity>
 
-<a-entity light="color: #f3d27a; decay: 2.47; distance: 1.56; intensity: 1.5; type: point" position="2.5646 1 10.44286"></a-entity>
 
-<a-entity light="color: #f3d27a; decay: 2.47; distance: 1.56; intensity: 1.5; type: point" position="4.744 1 8.7028"></a-entity>
-
-<a-entity light="color: #f3d27a; decay: 2.47; distance: 1.56; intensity: 1.5; type: point" position="-4.744 1 8.7028"></a-entity>
-
-<a-entity light="color: #f3d27a; decay: 2.03; distance: 2.37; intensity: 4.99; type: point" position="0 1.13308 7.05065"></a-entity>
+<a-entity light="color: #f3d27a; decay: 1.57; distance: 9.02; intensity: 4.99; type: point" position="0 1.48699 8.69051" id="mid"></a-entity>
 
 
 <a-entity light="angle: 52.2; color: #fceebc; decay: 0.25; distance: 3.42; intensity: 5.68; penumbra: 0.79; type: spot" position="0 3.03121 -3.92908" rotation="-52.787747580993006 0 0" id="spot-elevator"></a-entity>
 
-<a-entity light="color: #f1fefe; decay: 0.51; distance: 3.42; intensity: 3.85; penumbra: 1; type: spot" position="0 2.74474 -7.34709" rotation="-71.45643141974062 0 0"></a-entity>
 
 <a-entity light="color: #fbf4c6; distance: 3.11; intensity: 9.09; penumbra: 1; type: spot" position="-5.66214 2.35615 -1.05679" rotation="-90 0 0"></a-entity>
 
 <a-entity light="color: #fbf4c6; decay: 1.44; distance: 5.17; intensity: 9.09; penumbra: 1; type: spot" position="-3.40828 2.55671 -3.88623" rotation="-90 0 0"></a-entity>
 
-<a-entity light="color: #fbf4c6; decay: 1.44; distance: 3.55; intensity: 9.09; penumbra: 1; type: spot" position="-3.72657 4.18883 -6.6255" rotation="-90 0 0"></a-entity>
+<a-entity light="angle: 80; color: #fbf4c6; decay: 1.44; distance: 3.55; intensity: 9.09; penumbra: 1; type: spot" position="-4.74644 4.75919 -6.12134" rotation="-90 0 0" id="stairs-light1"></a-entity>
+
+<a-entity light="color: #fbf4c6; decay: 1.27; distance: 7.5; intensity: 7.64; penumbra: 1; type: spot" position="-3.71909 6.86902 -3.81381" rotation="-90 0 0" id="stairs-light2"></a-entity>
 
 <a-entity light="angle: 22.14; color: #faecc7; decay: 0.94; intensity: 4.63; penumbra: 0.62; type: spot" position="5.15098 2.86635 -6.00323" rotation="-90 0 0"></a-entity>
 
 
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="5.29416 2.25198 -3.17281" rotation="-90 0 0" id="wall-lights-1"></a-entity>
 
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="6.18752 2.26024 -0.84925" rotation="-90 0 0" id="lights-2"></a-entity>
-
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="6.1384 2.32892 -0.13225" rotation="-90 0 0" id="lights-3"></a-entity>
-
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="5.85299 2.26258 2.18843" rotation="-90 0 0" id="lights-4"></a-entity>
-
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="5.46688 2.24922 2.89936" rotation="-90 0 0" id="lights-5"></a-entity>
-
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="4.09752 2.24997 4.63441" rotation="-90 0 0" id="lights-6"></a-entity>
-
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="3.43671 2.24997 5.13536" rotation="-90 0 0" id="lights-7"></a-entity>
-
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="-3.23083 2.24997 5.26728" rotation="-90 0 0" id="lights-8"></a-entity>
-
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="-4.1851 2.24997 4.59515" rotation="-90 0 0" id="lights-9"></a-entity>
-
-<a-entity light="angle: 79.9; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 5.85; penumbra: 0.62; type: spot" position="-7.95303 2.24997 2.45316" rotation="-90 0 0" id="lights-10"></a-entity>
-
-<a-entity light="angle: 57.15; color: #e0dbfd; decay: 0.94; distance: 2.57; intensity: 4.09; penumbra: 0.62; type: spot" position="0 2.55186 11.2954" rotation="-90 0 0" id="lights-11"></a-entity>
 
 
 <a-entity light="angle: 57.15; color: #fff2d9; decay: 0.75; distance: 7.97; intensity: 20.8; penumbra: 0.62; type: spot" position="1.28411 10.88608 -5.93018" rotation="-90 0 0" id="entrance-light1"></a-entity>
 
 <a-entity light="angle: 57.15; color: #fff2d9; decay: 0.75; distance: 7.97; intensity: 20.8; penumbra: 0.62; type: spot" position="-1.32993 10.88608 -5.93018" rotation="-90 0 0" id="entrance-light2"></a-entity>
 
-<a-entity light="angle: 76.19; color: #fff2d9; decay: 0.69; distance: 7.97; intensity: 29.84; penumbra: 0.62; type: spot" position="0.02855 11.12345 -7.78388" rotation="-90 0 0" id="entrance-light3"></a-entity>
+<a-entity light="angle: 76.19; color: #fff2d9; decay: 0.69; distance: 7.97; intensity: 29.84; penumbra: 0.62; type: spot" position="0.02855 11.12345 -7.78388" rotation="-90 0 0" id="entrance-light3"></a-entity>~
+
+
+<a-entity light="angle: 22.14; color: #faecc7; decay: 0.83; intensity: 4.63; penumbra: 0.62; type: spot" position="4.69199 2.66983 -2.04696" rotation="-71.80135201240937 -90.00021045914971 90.00021045914971"></a-entity>
 
     </a-scene>
   </body>
